@@ -1,0 +1,5 @@
+Everything worked as expected in the final results.
+Every traffic direction in our testcases were given a chance to cycle between their various states. All without conflicts.
+
+Initial drafts of state transition logic had multiple failures: failure to transition states, and green states continuing for longer that intended. The former being a result of not properly defining state transition priorities after an all-red state. The latter being due to not properly defined conditions involving counters -- for transitioning to next green states.
+

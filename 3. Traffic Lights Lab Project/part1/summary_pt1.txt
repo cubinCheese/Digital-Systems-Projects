@@ -1,0 +1,4 @@
+Everything worked as expected in the final results.
+Initial logic failures were due to not implementing transition priorities, that follow all-red states, properly. But this was fixed and the result was as intended.
+
+
